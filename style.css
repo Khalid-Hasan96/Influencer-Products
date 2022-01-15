@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header part */
+.web-name{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+/* main part */
+
+/* main top start */
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.top-info{
+    width: 50%;
+    padding-left: 10%;
+}
+.top-img{
+    width: 50%;
+    padding-left: 10%;
+}
+.top-img:hover{
+    transform: scale(1.4);
+    transition: 2s ease-in-out;
+}
+.info-head{
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+.info-para{
+    line-height: 2em;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.pre-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size:18px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 8px 30px;
+    background-color: #5b5bfa;
+    color: #fff;
+    border-radius: 40px;
+}
+.pre-button:hover{
+    background-color: #E02C6D;
+    transition: 1s linear;
+}
+.pre-button .arrow{
+    font-size: 2em;
+}
+/* main top end */
+
+
+
+/* main mid start */
+.collection{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 60px;
+}
+.rating {
+    color: #fcc12d;
+}
+.rating span{
+    color: gray;
+}
+
+
+
+/* main mid end */
+
+
+/* footer part */
