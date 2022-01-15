@@ -87,10 +87,8 @@ body{
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
     justify-content: center;
-    
     padding-left: 10%;
     padding-right: 7%;
-    
 }
 .product-details{
     
